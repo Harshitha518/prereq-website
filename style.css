@@ -124,4 +124,16 @@ details p{margin:16px 0 0!important}
 @media(max-width:1000px){.wrap{padding:0 32px}.hero{gap:32px;padding:64px 0 72px}h1{font-size:46px;letter-spacing:-1.8px}.hero-lead{font-size:19px}.plan-frame{padding:20px}.story-card{padding:24px 20px}.story-card h3{font-size:21px}.section-intro{column-gap:32px}.counselor-section{padding:40px;gap:32px;grid-template-columns:120px 1fr}.counselor-mark{width:108px;height:128px}}
 @media(max-width:760px){.wrap{padding:0 24px}header{min-height:88px}.brand{font-size:22px}.brand img{width:38px;height:38px}nav{gap:20px}nav a{font-size:13px}.hero{grid-template-columns:1fr;gap:40px;padding:48px 0 56px}h1{font-size:clamp(38px,8vw,56px);letter-spacing:-1.7px}.hero-lead{max-width:470px;font-size:20px}.hero-detail{max-width:450px}.hero-visual{max-width:470px;width:100%;justify-self:center}.plan-frame{padding:24px}.plan-course-name{font-size:15px}.plan-course{min-height:62px}.app-story{padding:48px 0}.section-intro{display:block;margin-bottom:28px}.section-intro>p:last-child{margin-top:20px}.story-grid{grid-template-columns:1fr;gap:16px}.story-card{padding:28px}.story-label{margin-bottom:20px}.story-card h3{font-size:26px}.story-card>p{font-size:16px;margin-bottom:24px}.catalog-sample strong{font-size:16px}.catalog-sample .math-text{font-size:14px}.catalog-sample small{font-size:13px}.subject-icon{width:48px;height:48px}.pathway-sample strong{font-size:14px}.pathway-sample>div{min-height:40px}.progress-sample strong{font-size:14px}.progress-sample>div>span,.progress-sample small{font-size:12px}.counselor-section{grid-template-columns:1fr;padding:32px;gap:24px;margin-bottom:48px}.counselor-mark{width:64px;height:72px;border-radius:12px}.counselor-mark svg{width:42px;height:42px}.counselor-section h2{font-size:32px}.home-support{display:block;padding-bottom:48px}.home-support h2{font-size:30px}.home-support p:last-child{overflow-wrap:anywhere}.secondary-link{margin-top:24px}.footer-heading{align-items:flex-start}footer nav{gap:16px;flex-wrap:wrap}.document{padding:28px 24px;margin:32px auto 48px}.document h1{font-size:34px}.document a{overflow-wrap:anywhere}}
 @media(max-width:360px){.wrap{padding:0 16px}nav{gap:14px}nav a{font-size:12px}.brand{gap:8px}.brand img{width:32px;height:32px}.plan-frame{padding:18px}.plan-course-name{font-size:14px}.eyebrow{font-size:11px;letter-spacing:1px}.counselor-section{padding:24px}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+nav a,.primary-link,.secondary-link,.document .button,summary{transition:color 160ms ease,background-color 160ms ease,border-color 160ms ease,transform 180ms ease}
+.app-screenshot a{transition:transform 220ms ease,box-shadow 220ms ease,border-color 180ms ease}
+.primary-link>span,.secondary-link>span{display:inline-block;transition:transform 180ms ease}
+.app-screenshot a:focus-visible{border-color:var(--blue);box-shadow:0 10px 28px #0b31581a}
+@media(hover:hover) and (pointer:fine){
+.primary-link:hover,.secondary-link:hover,.document .button:hover{transform:translateY(-1px)}
+.primary-link:hover>span{transform:translateY(2px)}
+.secondary-link:hover>span{transform:translate(2px,-2px)}
+.app-screenshot a:hover{transform:translateY(-3px);border-color:#b6c9dc;box-shadow:0 12px 28px #0b31581a}
+.grade-picker>input:not(:checked)+label:hover{background:#e7edf4;color:var(--blue)}
+summary:hover{color:var(--blue)}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
