@@ -23,7 +23,7 @@
         ], 420);
       });
     }, { threshold: 0.01, rootMargin: '0px 0px -24px 0px' });
-    document.querySelectorAll('.section-intro, .story-card, .counselor-section, .home-support')
+    document.querySelectorAll('.section-intro, .story-card, .schools-heading, .school-card, .school-request, .counselor-section, .home-support')
       .forEach(element => observer.observe(element));
   }
 

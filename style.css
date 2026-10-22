@@ -57,6 +57,26 @@ h3{font-size:26px;letter-spacing:-.7px}
 .brand-trail i{width:6px;height:6px;background:#76a4e1;border-radius:50%}
 .brand-trail i:nth-child(2){background:#f5ad79}.brand-trail i:nth-child(3){background:#b096d5}.brand-trail i:nth-child(4){background:#efc96e}
 .visual-caption{text-align:center;font-size:11px;margin-top:14px;color:var(--muted)}
+.schools-section{padding:64px 0 80px;border-top:1px solid var(--line)}
+.schools-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;margin-bottom:32px}
+.schools-heading>p{max-width:330px;color:var(--muted);font-size:16px}
+.schools-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.school-card,.school-request{padding:32px;border-radius:18px;min-width:0}
+.school-card{background:var(--surface);border:1px solid var(--line)}
+.school-card-top{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:28px}
+.school-symbol{display:grid;place-items:center;width:48px;height:48px;border-radius:12px;background:var(--brand-tint);color:var(--blue);flex-shrink:0}
+.school-symbol svg{width:30px;height:30px}
+.school-status{font-size:12px;font-weight:550;color:var(--blue);padding:6px 10px;border-radius:8px;background:var(--brand-tint)}
+.school-card h3,.school-request h3{font-size:25px;line-height:1.2}
+.school-location{margin-top:8px;font-size:15px;color:var(--muted)}
+.school-includes{list-style:none;padding:20px 0 0;margin:24px 0 0;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;color:var(--muted)}
+.school-request{background:transparent;border:1px dashed #c6cfd9;display:flex;flex-direction:column;align-items:flex-start}
+.school-request .eyebrow{margin-bottom:16px}
+.school-request>p:not(.eyebrow){color:var(--muted);font-size:15px;margin:16px 0 24px;max-width:350px}
+.school-request-link{margin-top:auto;display:inline-flex;gap:20px;align-items:center;font-size:15px;font-weight:600;text-decoration:none;padding:8px 0}
+.school-request-link:hover{text-decoration:underline}
+@media(max-width:760px){.schools-section{padding:40px 0 48px}.schools-heading{display:block;margin-bottom:24px}.schools-heading>p{margin-top:16px}.schools-grid{grid-template-columns:1fr;gap:16px}.school-card,.school-request{padding:28px}.school-card h3,.school-request h3{font-size:24px}}
+@media(max-width:600px){header{flex-wrap:wrap;padding-top:24px;padding-bottom:20px;row-gap:20px}header nav{width:100%;justify-content:space-between;gap:12px}}
 .app-story{padding:72px 0 80px;border-top:1px solid var(--line)}
 .section-intro{display:grid;grid-template-columns:1fr 1fr;column-gap:64px;align-items:end;margin-bottom:40px}
 .section-intro .eyebrow{grid-column:1/-1}
