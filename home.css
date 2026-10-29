@@ -35,8 +35,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transform: scale(2.4);
-  transform-origin: 50% 25%;
+  transform: scale(2.1);
+  transform-origin: 50% 22%;
 }
 .creator-name { font-size: 18px; font-weight: 600; color: var(--blue-strong); }
 .creator-role { margin-top: 2px; color: var(--muted); font-size: 14px; }
