@@ -1,0 +1,5 @@
+.homepage .hero h1 { font-size: clamp(40px, 4.1vw, 58px); }
+.homepage .home-support p:last-child { max-width: 600px; }
+@media (max-width: 760px) {
+  .homepage .hero h1 { font-size: clamp(38px, 8vw, 56px); }
+}
