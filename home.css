@@ -1,5 +1,8 @@
 .homepage .hero h1 { font-size: clamp(40px, 4.1vw, 58px); }
 .homepage .home-support p:last-child { max-width: 600px; }
+.homepage .school-card { display: flex; flex-direction: column; }
+.homepage .school-source { margin-top: auto; }
+.homepage .school-location { margin-bottom: 24px; }
 .creator-note {
   padding: 44px 48px;
   margin-bottom: 80px;
@@ -38,7 +41,7 @@
   transform: scale(1.65);
   transform-origin: 50% 34%;
 }
-.creator-name { font-size: 18px; font-weight: 600; color: var(--blue-strong); }
+.creator-name { font-size: 18px; font-weight: 600; color: var(--blue-strong); line-height: 1.4; overflow-wrap: anywhere; }
 .creator-role { margin-top: 2px; color: var(--muted); font-size: 14px; }
 @media (max-width: 760px) {
   .homepage .hero h1 { font-size: clamp(38px, 8vw, 56px); }
