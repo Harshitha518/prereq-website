@@ -63,3 +63,21 @@
   .creator-note { padding: 26px 22px; }
   .creator-note h2 { font-size: 29px; }
 }
+
+/* App Store availability */
+.hero-download { display: flex; align-items: center; flex-wrap: wrap; gap: 24px; margin-top: 28px; }
+.app-store-badge { display: inline-block; padding: 15px; margin: -15px; line-height: 0; border-radius: 12px; }
+.app-store-badge img { display: block; width: 180px; height: 60px; }
+.hero-walkthrough { font-size: 15px; font-weight: 600; text-decoration: none; }
+.hero-walkthrough span { margin-left: 8px; }
+.homepage nav .nav-download { color: var(--blue); font-weight: 650; }
+.download-section { display: flex; align-items: center; justify-content: space-between; gap: 36px; padding: 48px; margin-bottom: 64px; border: 1px solid var(--line); border-radius: 22px; background: var(--surface); }
+.download-section p:not(.eyebrow) { color: var(--muted); margin-top: 20px; max-width: 540px; }
+.download-section .primary-link { margin-top: 0; flex-shrink: 0; gap: 18px; }
+@media (max-width: 760px) {
+  .homepage header { flex-wrap: wrap; }
+  .homepage header nav { flex-wrap: wrap; gap: 12px 20px; }
+  .hero-download { gap: 24px; }
+  .download-section { flex-direction: column; align-items: flex-start; padding: 30px 26px; margin-bottom: 48px; border-radius: 18px; }
+  .download-section .primary-link { max-width: 100%; font-size: 15px; gap: 12px; }
+}
