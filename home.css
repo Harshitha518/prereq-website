@@ -51,7 +51,8 @@
 }
 .creator-profile-link:hover { text-decoration-color: currentColor; text-decoration-thickness: 1px; }
 .creator-profile-link span { font-size: .8em; color: var(--muted); white-space: nowrap; }
-.creator-role { margin-top: 2px; color: var(--muted); font-size: 14px; }
+.creator-role { margin-top: 2px; color: var(--blue-strong); font-size: 15px; font-weight: 500; }
+.creator-recognition { margin-top: 4px; color: var(--muted); font-size: 13px; font-weight: 400; line-height: 1.5; }
 @media (max-width: 760px) {
   .homepage .hero h1 { font-size: clamp(38px, 8vw, 56px); }
   .creator-note { padding: 30px 26px; margin-bottom: 48px; border-radius: 18px; }
